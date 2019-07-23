@@ -1,4 +1,4 @@
-x=float(input("Enter a number: "))# your code goes here
+x=float(input())# your code goes here
 if x<=0:
 	print("Invalid")
 elif x%2==0:
