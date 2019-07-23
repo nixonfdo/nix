@@ -1,9 +1,9 @@
-x1=int(input())# your code goes here
-x2=int(input())
-x3=int(input())
-if((x1>=x2) and (x1>=x3)):
-	print(x1)
-elif((x2>=x1) and (x2>=x3)):
-	print(x2)
+a=int(input())# your code goes here
+b=int(input())
+c=int(input())
+if((a>=b) and (a>=c)):
+	print(a)
+elif((b>=a) and (b>=c)):
+	print(b)
 else:
-	print(x3)
+	print(c)
