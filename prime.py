@@ -1,8 +1,8 @@
 # your code goes here
 x=int(input())
-if(x>0):
-	for i in range(1,x):
-		if x%2==0:
+if x>1:
+	for i in range(2,x):
+		if x%i==0:
 			print("no")
 			break
 	else:
