@@ -7,4 +7,5 @@ if(x>0):
 			break
 	else:
 		print("yes")
-	
+else:
+	print("no")
